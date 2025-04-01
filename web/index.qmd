@@ -1,0 +1,160 @@
+---
+title: "An Atlas of Economic Activities in the UK: tapping into web archives for social science research"
+execute:
+  echo: false
+  message: false
+  error: false
+  warning: false
+---
+
+```{r setup}
+library(tidyverse)
+library(data.table)
+library(rprojroot)
+library(stringr)
+
+library(rollama)
+library(knitr)
+library(kableExtra)
+library(splitstackshape) 
+library(sf)
+library(spatstat)
+library(leaflet)
+library(kableExtra)
+library(urltools)
+
+# This is the project path
+#path <- find_rstudio_root_file()
+path <- "~/Library/CloudStorage/OneDrive-UniversityofBristol/projects/DFA"
+
+# for IT038117
+# path.data <- "/hdd/tmp/cc/df202350.csv"
+
+# for laptop
+path.data <- paste0(path, "/data/from_hdd/df202350.csv")
+
+# for IT106916
+# path.data <- paste0(path, "/data/df202350.csv")
+
+# Code to render this .qmd from the command line and save it to the project
+# directory.
+# quarto render src/data_report.qmd --output-dir $PWD/outputs
+```
+
+
+![](images/London_data_week.jpeg)
+
+## Project description
+
+This is the website of our [Smart Data Research UK](https://www.sdruk.ukri.org/2024/05/21/funding-new-smart-data-research/) project entitled *An Atlas of Economic Activities in the UK: tapping into web archives for social science research*.
+
+This project uses the Web, one of the largest sources of smart data, to map economic activities in the UK at an unprecedented level of detail. Our tools and data products will allow for the continuous monitoring and mapping of economic activities. They can support policy makers to understand how economic activity evolves over time and in different places. Our project showcases the value of the Web as an untapped source of smart data and creates tools for the broader social science community to utilise these data. 
+
+For this project, we are developing the computational tools that are needed to utilise web data at scale from web archives and, specifically, the [Common Crawl](https://commoncrawl.org/). By analysing self-descriptions of economic activities on business websites, we will produce typologies of economic activities that are rich in terms of content and their reach extends beyond small case studies. We will map and model the spatial footprints and the dynamics of economic activities in the UK. By geolocating and observing commercial websites over time we will expose the dynamics of economic activities: from stable industrial clusters to emerging economic activities and their geographies. It will also assess potential biases associated with archived web data. Just like non-digital archives, web archives do not archive everything - be it all public websites (archival extend) or all webpages within a website (archival depth).
+
+Websites are archetypal smart data: they are born digital data positioned at the core of what we understand as the internet; they are geospatial as 70% of all websites contain some place reference; they are commercial and transactional since they capture information -- often self-reported -- about various entities, from individuals to firms and third sector organisations; and they are unstructured, containing textual and visual information, among other things. Despite the utility of web data for social science research, the usage of such rich and big textual data is hindered by a lack of easy-to-access data and relevant tools.
+
+## A Bristol example
+
+This is an extract of the Common Crawl data from 2023 for the city of Bristol. It maps commercial websites (.co.uk), which contain one unique postcode from the Bristol area.
+
+```{r}
+# Code from Bristol_test_v2.Rmd
+
+df.bristol.wide <- fread(path.data, header = F) %>% 
+  rename(url = V1,
+         domain = V2,
+         pcs = V3,
+         archive = V4,
+         text = V5) %>% 
+  as_tibble() %>% 
+  group_by(domain) %>% 
+  # pcs now contains all postcodes from all webpages under the same domain
+  mutate(pcs = paste0(pcs, collapse = ",")) %>% 
+  ungroup() %>% 
+  # keep only landing pages
+  filter(grepl("\\.co\\.uk/$", url)) %>% # `|` \\.co\\.uk$ is not filtered out
+  # drop duplicates because of multiple archive locations and landing page duplicates (both http and https)
+  distinct(domain, .keep_all = TRUE) %>% 
+  # clean pcs
+  mutate(pcs=gsub('\\[|\\]|\'', '', pcs),
+         pcs=gsub(', ', ',', pcs)) %>% 
+  # keep unique postcodes within the same string and then creates a count
+  group_by(url) %>% 
+  mutate(pcs = paste(unique(unlist(strsplit(pcs, ","))), collapse = ","),
+         pcs.count = count.fields(textConnection(pcs), sep = ",")) %>% 
+  relocate(pcs.count, .after = pcs) %>% 
+  ungroup()
+
+df.bristol.long <- fread(path.data, header = F) %>% 
+  rename(url = V1,
+         domain = V2,
+         pcs = V3,
+         archive = V4,
+         text = V5) %>% 
+  as_tibble() %>% 
+  group_by(domain) %>% 
+  # pcs now contains all postcodes from all webpages under the same domain
+  mutate(pcs = paste0(pcs, collapse = ",")) %>% 
+  ungroup() %>% 
+  # keep only landing pages
+  filter(grepl("\\.co\\.uk/$", url)) %>% # `|` \\.co\\.uk$ is not filtered out
+  # drop duplicates because of multiple archive locations and landing page duplicates (both http and https)
+  distinct(domain, .keep_all = TRUE) %>% 
+  # clean pcs
+  mutate(pcs=gsub('\\[|\\]|\'', '', pcs),
+         pcs=gsub(', ', ',', pcs)) %>% 
+  # keep unique postcodes within the same string
+  select(url, domain, pcs) %>% 
+  group_by(url) %>% 
+  mutate(pcs = paste(unique(unlist(strsplit(pcs, ","))), collapse = ",")) %>% 
+  cSplit('pcs', ',', type.convert = F) %>% 
+  pivot_longer(!c(url, domain), names_to = "a", values_to = "pcs") %>% 
+  dplyr::select(-a) %>%
+  filter(!is.na(pcs)) %>% 
+  ungroup()
+# 18,451 lines           
+
+# df.bristol.long %>% distinct(domain) #= 3,015, which maches df.bristol.wide 
+
+lookup.path <- paste0(path, "/data/NSPL21_AUG_2023_UK/Data/NSPL21_AUG_2023_UK.csv")
+lookup <- read_csv(lookup.path)
+
+points.leaf <- df.bristol.long %>% 
+  select(url, pcs) %>% 
+  # keep websites with one unique postcode
+  left_join(df.bristol.wide %>% select(url, pcs.count)) %>% 
+  filter(pcs.count < 2) %>% 
+  # there are websites with one unique postcode not starting with BS
+  # e.g.: https://www.cottonacres.co.uk/ has S9 4WA 
+  filter(grepl("^BS",pcs)) %>%   
+  left_join(lookup, by = c("pcs"="pcds")) %>% 
+  filter(!is.na(oseast1m)) %>%
+  dplyr::select(lat, long, url) %>% #8 URLs have terminated postcodes, 677 in Channel Islands
+  st_as_sf(coords = c("long", "lat"), crs = 4326) 
+
+
+leaflet() %>%
+  addTiles() %>%
+  addCircleMarkers(data = points.leaf,
+             popup = ~as.character(url),
+             opacity = .5,
+             radius = 2)
+```
+## Team members
+
+We are all based at the [School of Geographical Sciences](https://www.bristol.ac.uk/geography/) at the University of Bristol and the [Quantitative Spatial Science research group](https://quss.blogs.bristol.ac.uk/).
+
+- [Dr Leonardo Castro Gonzalez](https://leonardocastro.github.io/)
+
+- [Ms Emerald Dilworth](https://www.linkedin.com/in/emeralddilworth/?originalSubdomain=uk)
+
+- [Prof Emmanouil Tranos](https://etranos.info/) (Principal Investigator)
+
+- [Dr Levi Wolf](https://www.bristol.ac.uk/geography/people/levi-wolf/overview.html)
+
+- [Dr Rui Zhu](https://www.bristol.ac.uk/geography/people/rui-zhu/overview.html)
+
+<!-- The project will deliver a data product, a dynamic inventory of commercial websites, including their URLs, timestamps, associated geolocations and typologies of economic activities - the Atlas of Economic Activities in the UK. We will design our code so that it can incorporate past and future versions of the CC data. Due to the UK legislation, we cannot openly provide the web data and text we will mine from the CC. Instead, the data product will include a workflow to the CC for other researchers to mine the content of archived websites of interest. We will collaborate with the Consumer Data Research Centre (CDRC) to produce an interactive visualisation (web map). The Atlas does not aim to replace SIC codes, but instead to complement them by providing a dynamic and flexible typology economic of activities. Researchers and policy makers interested in the distribution and evolution of economic activities will directly benefit as they will obtain a detailed understanding of the (co)location of economic activities even at the building level and over time. -->
+
+<!-- We will openly disseminate the code we will develop in a small library and reproducible notebooks. We expect our tools to be used by other researchers (1) interested in business-related questions who will directly use our code to mine commercial websites, e.g. for tracing R&D and innovation activities; and (2) who want to analyse other subsets of the web such as UK governmental websites (.gov.uk) or other country code top-level domain (ccTLD - .de) to answer substantive questions within their research domains. -->
