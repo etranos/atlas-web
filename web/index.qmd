@@ -8,6 +8,11 @@ execute:
 ---
 
 ```{r setup}
+#| echo: false
+#| message: false
+#| error: false
+#| warning: false
+
 library(tidyverse)
 library(data.table)
 library(rprojroot)
@@ -59,6 +64,11 @@ Websites are archetypal smart data: they are born digital data positioned at the
 This is an extract of the Common Crawl data from 2023 for the city of Bristol. It maps commercial websites (.co.uk), which contain one unique postcode from the Bristol area.
 
 ```{r}
+#| echo: false
+#| message: false
+#| error: false
+#| warning: false
+
 # Code from Bristol_test_v2.Rmd
 
 df.bristol.wide <- fread(path.data, header = F) %>% 
@@ -155,9 +165,10 @@ We are all based at the [School of Geographical Sciences](https://www.bristol.ac
 
 - [Dr Rui Zhu](https://www.bristol.ac.uk/geography/people/rui-zhu/overview.html)
 
-```{=html}
+
 <iframe src="https://uob-my.sharepoint.com/personal/nw19521_bristol_ac_uk/_layouts/15/Doc.aspx?sourcedoc={d48f9f47-e539-4849-98f9-e5e53cef0d44}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="476px" height="288px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
-```
+ 
+<!-- ``` -->
 
 <!-- The project will deliver a data product, a dynamic inventory of commercial websites, including their URLs, timestamps, associated geolocations and typologies of economic activities - the Atlas of Economic Activities in the UK. We will design our code so that it can incorporate past and future versions of the CC data. Due to the UK legislation, we cannot openly provide the web data and text we will mine from the CC. Instead, the data product will include a workflow to the CC for other researchers to mine the content of archived websites of interest. We will collaborate with the Consumer Data Research Centre (CDRC) to produce an interactive visualisation (web map). The Atlas does not aim to replace SIC codes, but instead to complement them by providing a dynamic and flexible typology economic of activities. Researchers and policy makers interested in the distribution and evolution of economic activities will directly benefit as they will obtain a detailed understanding of the (co)location of economic activities even at the building level and over time. -->
 
