@@ -1,0 +1,12 @@
+---
+title: "Talks"
+editor: source
+---
+
+## Regional Studies 2025
+
+Emmanouil's presentation during the [2025 Regional Studies Association Annual Conference](https://www.regionalstudies.org/events/rsa25/)
+
+```{=html}
+<iframe width="800" height="400" src="https://uob-my.sharepoint.com/personal/nw19521_bristol_ac_uk/_layouts/15/Doc.aspx?sourcedoc={c20615f6-15a7-492c-a239-1396bf5fef88}&amp;action=embedview&amp;wdAr=1.7777777777777777" data-external="1"  frameBorder="0"></iframe>
+```

@@ -1,15 +1,22 @@
 project:
   type: website
+  output-dir: ../docs
 
 website:
   title: "Atlas"
+
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - text: Talks
+        href: talks.qmd
       - icon: github
         href: https://github.com/etranos/atlas
-      
+
+  page-footer:
+    left: "&copy; Copyright 2025, Author"
+    right: "This website is built with [Quarto](https://quarto.org/)."
 
 format:
   html:

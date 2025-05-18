@@ -1,10 +1,8 @@
 ---
 title: "An Atlas of Economic Activities in the UK: tapping into web archives for social science research"
-execute:
-  echo: false
-  message: false
-  error: false
-  warning: false
+format:
+  html:
+    toc: true
 ---
 
 ```{r setup}
@@ -43,12 +41,8 @@ path.data <- paste0(path, "/data/from_hdd/df202350.csv")
 
 # Code to render this .qmd from the command line and save it to the project
 # directory.
-# quarto render src/data_report.qmd --output-dir $PWD/outputs
-
-# or 
-# render("index.qmd", output_dir = "~/Library/CloudStorage/OneDrive-UniversityofBristol/projects/atlas-web/docs")
+# quarto render web/index.qmd --output-dir $PWD/docs
 ```
-
 
 ![](images/London_data_week.jpeg)
 
@@ -169,13 +163,9 @@ We are all based at the [School of Geographical Sciences](https://www.bristol.ac
 - [Dr Rui Zhu](https://www.bristol.ac.uk/geography/people/rui-zhu/overview.html)
 
 
-<iframe src="https://uob-my.sharepoint.com/personal/nw19521_bristol_ac_uk/_layouts/15/Doc.aspx?sourcedoc={d48f9f47-e539-4849-98f9-e5e53cef0d44}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="476px" height="288px" frameborder="0"></iframe>
+<!-- <iframe src="https://uob-my.sharepoint.com/personal/nw19521_bristol_ac_uk/_layouts/15/Doc.aspx?sourcedoc={d48f9f47-e539-4849-98f9-e5e53cef0d44}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="476px" height="288px" frameborder="0"></iframe> -->
 
-```{=html}
-<iframe width="476" height="288" src="https://uob-my.sharepoint.com/personal/nw19521_bristol_ac_uk/_layouts/15/Doc.aspx?sourcedoc={d48f9f47-e539-4849-98f9-e5e53cef0d44}&amp;action=embedview&amp;wdAr=1.7777777777777777" title="Quarto Documentation"></iframe>
-```
  
-<!-- ``` -->
 
 <!-- The project will deliver a data product, a dynamic inventory of commercial websites, including their URLs, timestamps, associated geolocations and typologies of economic activities - the Atlas of Economic Activities in the UK. We will design our code so that it can incorporate past and future versions of the CC data. Due to the UK legislation, we cannot openly provide the web data and text we will mine from the CC. Instead, the data product will include a workflow to the CC for other researchers to mine the content of archived websites of interest. We will collaborate with the Consumer Data Research Centre (CDRC) to produce an interactive visualisation (web map). The Atlas does not aim to replace SIC codes, but instead to complement them by providing a dynamic and flexible typology economic of activities. Researchers and policy makers interested in the distribution and evolution of economic activities will directly benefit as they will obtain a detailed understanding of the (co)location of economic activities even at the building level and over time. -->
 
