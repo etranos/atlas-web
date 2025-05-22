@@ -42,6 +42,7 @@ path.data <- paste0(path, "/data/from_hdd/df202350.csv")
 # Code to render this .qmd from the command line and save it to the project
 # directory.
 # quarto render web/index.qmd --output-dir $PWD/docs
+# Better: Render button
 ```
 
 ![](images/London_data_week.jpeg)
