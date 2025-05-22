@@ -6,22 +6,22 @@ editor: source
 ## Regional Studies 2025
 
 Emmanouil presented the pipeline we have developed and some very early outputs 
-during the [2025 Regional Studies Association Annual Conference](https://www.regionalstudies.org/events/rsa25/). See the slide deck
-below.
+during the [2025 Regional Studies Association Annual Conference](https://www.regionalstudies.org/events/rsa25/){target="_blank"}. 
+See the slide deck below.
 
 ```{=html}
 <iframe width="780" height="400" src="https://uob-my.sharepoint.com/personal/nw19521_bristol_ac_uk/_layouts/15/Doc.aspx?sourcedoc={c20615f6-15a7-492c-a239-1396bf5fef88}&amp;action=embedview&amp;wdAr=1.7777777777777777" data-external="1"  frameBorder="0"></iframe>
 ```
 
-This was part of a very successful Special Session on *Unstructured Textual Data, Machine Learning, AI and their Applications in Regional Studies* organised by [Milad Abbasiharofteh](https://www.rug.nl/staff/m.abbasiharofteh/?lang=en), 
-[Jessica Birkholz](https://www.uni-bremen.de/en/guenther/staff/team-1/dr-jessica-birkholz), 
-[Tom Broekel](https://www.tombroekel.de/) and [Emmanouil Tranos](https://etranos.info/). 
-More info about the Special Session  [here](https://www.linkedin.com/posts/milad-abbasiharofteh-141250132_2025-rsa-annual-conference-rsa-main-activity-7274355501021237248-ey08/).
+This was part of a very successful Special Session on *Unstructured Textual Data, Machine Learning, AI and their Applications in Regional Studies* organised by [Milad Abbasiharofteh](https://www.rug.nl/staff/m.abbasiharofteh/?lang=en){target="_blank"}, 
+[Jessica Birkholz](https://www.uni-bremen.de/en/guenther/staff/team-1/dr-jessica-birkholz){target="_blank"}, 
+[Tom Broekel](https://www.tombroekel.de/){target="_blank"} and [Emmanouil Tranos](https://etranos.info/){target="_blank"}. 
+More info about the Special Session  [here](https://www.linkedin.com/posts/milad-abbasiharofteh-141250132_2025-rsa-annual-conference-rsa-main-activity-7274355501021237248-ey08/){target="_blank"}.
 
 ## London Data Week 2024
 
 During the London Data Week we organised a public event about 
-[Web Archives: An Untapped Source Of Smart Data](https://londondataweek.org/events/#web-archives-an-untapped-source-of-smart-data).
+[Web Archives: An Untapped Source Of Smart Data](https://londondataweek.org/events/#web-archives-an-untapped-source-of-smart-data){target="_blank"}.
 
 Despite their existence since the early days of the internet, web archives remain 
 an underutilised resource with immense potential. The session raised awareness 
