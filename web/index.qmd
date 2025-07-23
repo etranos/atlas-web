@@ -164,6 +164,11 @@ We are all based at the [School of Geographical Sciences](https://www.bristol.ac
 
 - [Dr Rui Zhu](https://www.bristol.ac.uk/geography/people/rui-zhu/overview.html){target="_blank"}
 
+## Project partners
+
+- [Common Crawl](https://commoncrawl.org/){target="_blank"}
+- [The Bristish Library](https://www.bl.uk/) and the [UK Web Archive](https://www.webarchive.org.uk/){target="_blank"}
+
 
 <!-- <iframe src="https://uob-my.sharepoint.com/personal/nw19521_bristol_ac_uk/_layouts/15/Doc.aspx?sourcedoc={d48f9f47-e539-4849-98f9-e5e53cef0d44}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="476px" height="288px" frameborder="0"></iframe> -->
 
