@@ -4,6 +4,8 @@ project:
 
 website:
   title: "Atlas"
+  google-analytics: "G-XNYYQ793X5"
+  cookie-consent: true
 
   navbar:
     left:
@@ -11,6 +13,8 @@ website:
         text: Home
       - text: Talks
         href: talks.qmd
+      - text: Datathon
+        href: datathon.qmd
       - icon: github
         href: https://github.com/etranos/atlas
 
