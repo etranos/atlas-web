@@ -15,7 +15,7 @@ This two-day event will build capacity in the social science research community 
 
 - Early-career and more established researchers in the social sciences who currently use, or wish to use, web data for their research--especially data from Web Archives.
 
-- Participants with technical backgrounds (e.g. data science) who want to apply their skills to Web Archive data for policy-relevant research.
+- Researchers with technical backgrounds (e.g. data science) who want to apply their skills to Web Archive data for policy-relevant research.
 
 - Some prior experience with code-based tools (e.g. Python or R) is expected.
 
