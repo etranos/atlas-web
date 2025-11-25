@@ -101,6 +101,8 @@ This Datathon is part of the [Atlas of Econonic Activities](https://www.urbaneco
 
 Facilitators: [Emmanouil Tranos](https://etranos.info/), [Leonardo Castro Gonzalez](https://www.sdruk.ukri.org/people/accelerator-teams/dr-leonardo-castro-gonzalez/), [Laurie Burchell](https://commoncrawl.org/team/laurie-burchell) and [Thom Vaughan](https://commoncrawl.org/team/thom-vaughan).
 
+Guest star: [Jon Reades](https://profiles.ucl.ac.uk/23068-jon-reades).
+
 ### Problems
 
 1.  This is a [cache of web data](https://fluff.bris.ac.uk/fluff/u3/nw19521/edJmkqqtL_S3qeUKifXqywRVP/) containing all commercial websites (.co.uk, landing webpages only) archived by the Common Crawl (2021) that (1) include at least one UK postcode in their web text, and (2) we believe represent Financial Services. Identify the different sub-classes (industries) within Financial Services and highlight the websites that provide Fintech services.
@@ -164,7 +166,6 @@ The rest of the fields were produced by our [TNT-LLM](https://arxiv.org/abs/2403
 | <span style="color:blue">Wander Demuynck | <span style="color:blue">3 |
 | <span style="color:blue">Paddy Smith | <span style="color:blue">3 |
 | <span style="color:blue">James Thomas | 3<span style="color:blue"> |
-| <span style="color:blue">Jon Reades (TBC) | <span style="color:blue">3 |
 | Christina Palantza | 4 |
 | Fanqi Zeng | 4 |
 | Céline Van Migerode | 4 |
