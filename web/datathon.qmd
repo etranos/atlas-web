@@ -111,7 +111,8 @@ Facilitators: [Emmanouil Tranos](https://etranos.info/), [Leonardo Castro Gonzal
 
 4.  This is a cache of web data ([part 1](https://fluff.bris.ac.uk/fluff/u3/nw19521/IrZEQOEv5UC0aY8wwm7hgARVX/) and [part 2](https://fluff.bris.ac.uk/fluff/u2/nw19521/9HiSFzR9UOaF01U8ZrmKCARVA/)) containing all the UK governmental webpages (.gov.uk) that have been archived by the Common Crawl (February-March 2024). Identify the key policy areas Local Authorities in the UK focus on. Are there any Local Authorities that have implemented distinct policies or actions?
 
-5.  This is a [cache of web data](https://fluff.bris.ac.uk/fluff/u1/nw19521/or7qMH6dXimnGw_OHWsfgQRVn/), which contains all the UK governmental webpages (.gov.uk) that have been archived by the Common Crawl in two points in time: February-March 2024 and October 2025. Identify changes associated with the new government elected in July 2024.
+5.  This is a cache of web data, which contains all the UK governmental webpages (.gov.uk) that have been archived by the Common Crawl in two points in time: February-March 2024 ([part 1](https://fluff.bris.ac.uk/fluff/u3/nw19521/IrZEQOEv5UC0aY8wwm7hgARVX/) and [part 2](https://fluff.bris.ac.uk/fluff/u2/nw19521/9HiSFzR9UOaF01U8ZrmKCARVA/) same as Problem 4) and [October 2025](https://fluff.bris.ac.uk/fluff/u4/nw19521/wzCPcfPytLztz9fokgnZ_QRWf/). Identify changes in a specific policy domain associated with the new government elected in July 2024.
+
 
 ### Data description
 
@@ -126,7 +127,7 @@ aware that not all columns are present in all data packages.
 
 -   `explanation`: an LLM-generated explanation of how the summary of was conducted
 
--   `clean_content`: the *cleaned* web text from the landing page of each website
+-   `clean_content`: LLM-cleaned web text from the landing page of each website
 
 -   `url`: the website URL
 
