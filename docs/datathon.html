@@ -244,8 +244,8 @@ cookieconsent.run({
 <h2 class="anchored" data-anchor-id="datathon-materials">Datathon materials</h2>
 <section id="agenda" class="level3">
 <h3 class="anchored" data-anchor-id="agenda">Agenda</h3>
-<section id="section" class="level4">
-<h4 class="anchored" data-anchor-id="section">27/11</h4>
+<section id="thursday-27112025" class="level4">
+<h4 class="anchored" data-anchor-id="thursday-27112025">Thursday 27/11/2025</h4>
 <ul>
 <li><p>09.30-10.00 Arrival at the <a href="https://www.bristol.ac.uk/bristol-digital-futures-institute/facilities/neutral-lab/" target="_blank">BDFI</a>; coffee and snacks available</p></li>
 <li><p>10.00-10.15 Welcome and introductions [Emmanouil Tranos, University of Bristol]</p></li>
@@ -259,8 +259,8 @@ cookieconsent.run({
 <li><p>20.00 Leave the BDFI</p></li>
 </ul>
 </section>
-<section id="section-1" class="level4">
-<h4 class="anchored" data-anchor-id="section-1">28/11</h4>
+<section id="friday-28112025" class="level4">
+<h4 class="anchored" data-anchor-id="friday-28112025">Friday 28/11/2025</h4>
 <ul>
 <li><p>09.00-12.30 Work [facilitators will be around; snacks and coffee available]</p></li>
 <li><p>12.30-13.30 Lunch and QAs</p></li>
@@ -283,20 +283,23 @@ cookieconsent.run({
 </section>
 <section id="data-description" class="level3">
 <h3 class="anchored" data-anchor-id="data-description">Data description</h3>
+<p>You will find the following columns in the different data packages. Please be aware that not all columns are present in all data packages.</p>
 <ul>
-<li><p>content: the web text from the landing page of each website</p></li>
-<li><p>summary: an LLM-generated summary of the web text</p></li>
-<li><p>explanation: an LLM-generated explanation of how the summary of was conducted</p></li>
-<li><p>url: the website URL</p></li>
-<li><p>parent_url: the website domain</p></li>
-<li><p>postcodes: UK postcodes found in the web text</p></li>
+<li><p><code>id</code>: An ID. Not linked to any other external data</p></li>
+<li><p><code>content</code>: the web text from the landing page of each website</p></li>
+<li><p><code>summary</code>: an LLM-generated summary of the web text</p></li>
+<li><p><code>explanation</code>: an LLM-generated explanation of how the summary of was conducted</p></li>
+<li><p><code>clean_content</code>: the <em>cleaned</em> web text from the landing page of each website</p></li>
+<li><p><code>url</code>: the website URL</p></li>
+<li><p><code>parent_url</code>: the website domain</p></li>
+<li><p><code>postcodes</code>: UK postcodes found in the web text</p></li>
 </ul>
-<p>The rest of the fields were produced by our <a href="https://arxiv.org/abs/2403.12173">TNT-LLM</a> based pipeline that classifies websites into a two-level typology of economic activities (high level clusters and low level clusters) using LLMs. These fields are:</p>
+<p>The rest of the fields were produced by our <a href="https://arxiv.org/abs/2403.12173">TNT-LLM</a> inspired pipeline that classifies websites into a two-level typology (for now) of economic activities (high level clusters and low level clusters) using LLMs. These fields are:</p>
 <ul>
-<li><p>partition_id: high level cluster ID (imagine something like sector)</p></li>
-<li><p>label_id: low level cluster ID (imagine something like industry)</p></li>
-<li><p>label_name: low level cluster name (imagine something like industry)</p></li>
-<li><p>label_description: low level cluster description (imagine something like industry)</p></li>
+<li><p><code>partition_id</code>: high level cluster ID (imagine something like sector)</p></li>
+<li><p><code>label_id</code>: low level cluster ID (imagine something like industry)</p></li>
+<li><p><code>label_name</code>: low level cluster name (imagine something like industry)</p></li>
+<li><p><code>label_description</code>: low level cluster description (imagine something like industry)</p></li>
 </ul>
 </section>
 <section id="groups" class="level3">

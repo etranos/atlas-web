@@ -65,7 +65,7 @@ This Datathon is part of the [Atlas of Econonic Activities](https://www.urbaneco
 
 ### Agenda
 
-#### 27/11
+#### Thursday 27/11/2025
 
 -   09.30-10.00 Arrival at the [BDFI](https://www.bristol.ac.uk/bristol-digital-futures-institute/facilities/neutral-lab/){target="_blank"}; coffee and snacks available
 
@@ -87,7 +87,7 @@ This Datathon is part of the [Atlas of Econonic Activities](https://www.urbaneco
 
 -   20.00 Leave the BDFI
 
-#### 28/11
+#### Friday 28/11/2025
 
 -   09.00-12.30 Work \[facilitators will be around; snacks and coffee available\]
 
@@ -115,27 +115,34 @@ Facilitators: [Emmanouil Tranos](https://etranos.info/), [Leonardo Castro Gonzal
 
 ### Data description
 
--   content: the web text from the landing page of each website
+You will find the following columns in the different data packages. Please be
+aware that not all columns are present in all data packages.
 
--   summary: an LLM-generated summary of the web text
+-   `id`: An ID. Not linked to any other external data
 
--   explanation: an LLM-generated explanation of how the summary of was conducted
+-   `content`: the web text from the landing page of each website
 
--   url: the website URL
+-   `summary`: an LLM-generated summary of the web text
 
--   parent_url: the website domain
+-   `explanation`: an LLM-generated explanation of how the summary of was conducted
 
--   postcodes: UK postcodes found in the web text
+-   `clean_content`: the *cleaned* web text from the landing page of each website
 
-The rest of the fields were produced by our [TNT-LLM](https://arxiv.org/abs/2403.12173) based pipeline that classifies websites into a two-level typology of economic activities (high level clusters and low level clusters) using LLMs. These fields are:
+-   `url`: the website URL
 
--   partition_id: high level cluster ID (imagine something like sector)
+-   `parent_url`: the website domain
 
--   label_id: low level cluster ID (imagine something like industry)
+-   `postcodes`: UK postcodes found in the web text
 
--   label_name: low level cluster name (imagine something like industry)
+The rest of the fields were produced by our [TNT-LLM](https://arxiv.org/abs/2403.12173) inspired pipeline that classifies websites into a two-level typology (for now) of economic activities (high level clusters and low level clusters) using LLMs. These fields are:
 
--   label_description: low level cluster description (imagine something like industry)
+-   `partition_id`: high level cluster ID (imagine something like sector)
+
+-   `label_id`: low level cluster ID (imagine something like industry)
+
+-   `label_name`: low level cluster name (imagine something like industry)
+
+-   `label_description`: low level cluster description (imagine something like industry)
 
 ### Groups
 
@@ -168,3 +175,5 @@ The rest of the fields were produced by our [TNT-LLM](https://arxiv.org/abs/2403
 | <span style="color:blue">Mariam Cook | <span style="color:blue">5 |
 | <span style="color:blue">Helena Byrne | <span style="color:blue">5 |
 | <span style="color:blue">Wong E Chern | <span style="color:blue">5 |
+
+
