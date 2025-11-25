@@ -115,39 +115,32 @@ Facilitators: [Emmanouil Tranos](https://etranos.info/), [Leonardo Castro Gonzal
 
 ### Data description
 
+-   content: the web text from the landing page of each website
 
+-   summary: an LLM-generated summary of the web text
 
-- content: the web text from the landing page of each website
+-   explanation: an LLM-generated explanation of how the summary of was conducted
 
-- summary: an LLM-generated summary of the web text
+-   url: the website URL
 
-- explanation: an LLM-generated explanation of how the summary of was conducted
+-   parent_url: the website domain
 
-- url: the website URL
-
-- parent_url: the website domain	
-
-- postcodes: UK postcodes found	in the web text
+-   postcodes: UK postcodes found in the web text
 
 The rest of the fields were produced by our [TNT-LLM](https://arxiv.org/abs/2403.12173) based pipeline that classifies websites into a two-level typology of economic activities (high level clusters and low level clusters) using LLMs. These fields are:
 
-- partition_id: high level cluster ID (imagine something like sector)
+-   partition_id: high level cluster ID (imagine something like sector)
 
-- label_id: low level cluster ID (imagine something like industry)	
+-   label_id: low level cluster ID (imagine something like industry)
 
-- label_name: low level cluster name (imagine something like industry)
+-   label_name: low level cluster name (imagine something like industry)
 
-- label_description: low level cluster description (imagine something like industry)	
-
-```{r, eval=FALSE}
-a
-```
-
+-   label_description: low level cluster description (imagine something like industry)
 
 ### Groups
 
 | Name | Problem |
-|--------------------------------------------------|:-------------------:|
+|--------------------------------------------------|:--------------------:|
 | <span style="color:blue">Gabriel Adam Pierzynski | <span style="color:blue">1 |
 | <span style="color:blue">Thomas Carey-Wilson | <span style="color:blue">1 |
 | <span style="color:blue">Timothy Monteath | <span style="color:blue">1 |
