@@ -11,27 +11,27 @@ On 27–28 November 2025 we are organising a **Web Archives for Social Sciences 
 
 This two-day event will build capacity in the social science research community to use large-scale Web Archive data for policy-relevant, socio-economic research. Participants will work in teams with curated data extracts from the Common Crawl to address real-world research challenges. They will be supported by our expert facilitators.
 
-### Who should apply?
+## Who should apply?
 
-- Early-career and more established researchers in the social sciences who currently use, or wish to use, web data for their research--especially data from Web Archives.
+-   Early-career and more established researchers in the social sciences who currently use, or wish to use, web data for their research--especially data from Web Archives.
 
-- Researchers with technical backgrounds (e.g. data science) who want to apply their skills to Web Archive data for policy-relevant research.
+-   Researchers with technical backgrounds (e.g. data science) who want to apply their skills to Web Archive data for policy-relevant research.
 
-- Some prior experience with code-based tools (e.g. Python or R) is expected.
+-   Some prior experience with code-based tools (e.g. Python or R) is expected.
 
-### What will you gain?
+## What will you gain?
 
 By the end of the Datathon, you will be:
 
-- More confident in using Web Archives to address your own research questions.
+-   More confident in using Web Archives to address your own research questions.
 
-- Familiar with the structure, challenges, and opportunities of these data.
+-   Familiar with the structure, challenges, and opportunities of these data.
 
-- Equipped with technical expertise for working with Web Archive data at scale.
+-   Equipped with technical expertise for working with Web Archive data at scale.
 
-- Experienced in using LLM for analysing such web data.
+-   Experienced in using LLM for analysing such web data.
 
-### Practical details
+## Practical details
 
 When: 27–28 November 2025
 
@@ -43,16 +43,15 @@ How to apply
 
 Send a one-page document to Emmanouil Tranos (e.tranos *at* bristol *dot* ac *dot* uk) by 15 October 2025, including:
 
-- Your current position
+-   Your current position
 
-- Your research interests, particularly how you are using (or plan to use) Web Archive data
+-   Your research interests, particularly how you are using (or plan to use) Web Archive data
 
-- Your technical skills
+-   Your technical skills
 
-- Your location and whether you require financial support.
+-   Your location and whether you require financial support.
 
-::: {layout-ncol=2}
-
+::: {layout-ncol="2"}
 ![](images/BDFI1.png)
 
 ![](images/BDFI2.png)
@@ -62,3 +61,117 @@ BDFI's Neutral Lab. Source: [BDFI webpage](https://www.bristol.ac.uk/bristol-dig
 
 This Datathon is part of the [Atlas of Econonic Activities](https://www.urbaneconomies.co.uk/){target="_blank"} project and is funded by [SDR UK](https://www.sdruk.ukri.org/){target="_blank"}.
 
+## Datathon materials
+
+### Agenda
+
+#### 27/11
+
+-   09.30-10.00 Arrival at the [BDFI](https://www.bristol.ac.uk/bristol-digital-futures-institute/facilities/neutral-lab/){target="_blank"}; coffee and snacks available
+
+-   10.00-10.15 Welcome and introductions \[Emmanouil Tranos, University of Bristol\]
+
+-   10.15-10.30 Introduction to the Common Crawl \[Laurie Burchell and Thom Vaughan, Common Crawl\]
+
+-   10.30-10.45 Web data and LLMs \[Leonardo Castro Gonzalez, University of Bristol\]
+
+-   10.45-11.00 Problems and teams \[Emmanouil Tranos, University of Bristol\]
+
+-   11.00-13.00 Work \[facilitators will be around; snacks and coffee available\]
+
+-   13.00-14.00 Lunch and QAs
+
+-   14.00-18.00 Work \[facilitators will be around; snacks and coffee available\]
+
+-   18.00-19.30 Pizza and brief team updates
+
+-   20.00 Leave the BDFI
+
+#### 28/11
+
+-   09.00-12.30 Work \[facilitators will be around; snacks and coffee available\]
+
+-   12.30-13.30 Lunch and QAs
+
+-   13.30-15.30 Work \[facilitators will be around; snacks and coffee available\]
+
+-   15.30-16.45 Group presentations
+
+-   16.45-17.45 Closing remarks and reception
+
+Facilitators: [Emmanouil Tranos](https://etranos.info/), [Leonardo Castro Gonzalez](https://www.sdruk.ukri.org/people/accelerator-teams/dr-leonardo-castro-gonzalez/), [Laurie Burchell](https://commoncrawl.org/team/laurie-burchell) and [Thom Vaughan](https://commoncrawl.org/team/thom-vaughan).
+
+### Problems
+
+1.  This is a [cache of web data](https://fluff.bris.ac.uk/fluff/u3/nw19521/edJmkqqtL_S3qeUKifXqywRVP/) containing all commercial websites (.co.uk, landing webpages only) archived by the Common Crawl (2021) that (1) include at least one UK postcode in their web text, and (2) we believe represent Financial Services. Identify the different sub-classes (industries) within Financial Services and highlight the websites that provide Fintech services.
+
+2.  This is a [cache of web data](https://fluff.bris.ac.uk/fluff/u3/nw19521/XwL4BFoihS54Rcdy9OmuOwRVB/) containing all commercial websites (.co.uk, landing webpages only) archived by the Common Crawl (2021) that (1) include at least one UK postcode in their web text, and (2) we believe represent the Creative Industries. Identify the different sub-classes (industries) within the Creative Industries and highlight the CreaTech websites.
+
+3.  This is a cache of web data containing all commercial websites (.co.uk, landing webpages only) archived by the Common Crawl (all of 2021 and 2024) that include at least one postcode from Manchester and Birmingham in their web text. The 2021 commercial websites are classified by economic activity, while the 2024 websites are not. Use the 2021 data to classify the 2024 data for both cities. Compare the industrial structure of these cities and analyse how it evolved overtime. Manchester data for [2021](https://fluff.bris.ac.uk/fluff/u4/nw19521/HkAQ91jMEQjDiziHka2HdwRVD/) and [2024](https://fluff.bris.ac.uk/fluff/u2/nw19521/ulc_qQzIEsoYqvVgVruPwwRV1/) and Birmingham data for [2021](https://fluff.bris.ac.uk/fluff/u1/nw19521/QDGVVWEZ2KpTLTPQSkVW1QRVS/) and [2024](https://fluff.bris.ac.uk/fluff/u1/nw19521/aQ5jRlZIWmHdJfyGmW3YggRVz/).
+
+4.  This is a cache of web data ([part 1](https://fluff.bris.ac.uk/fluff/u3/nw19521/IrZEQOEv5UC0aY8wwm7hgARVX/) and [part 2](https://fluff.bris.ac.uk/fluff/u2/nw19521/9HiSFzR9UOaF01U8ZrmKCARVA/)) containing all the UK governmental webpages (.gov.uk) that have been archived by the Common Crawl (February-March 2024). Identify the key policy areas Local Authorities in the UK focus on. Are there any Local Authorities that have implemented distinct policies or actions?
+
+5.  This is a [cache of web data](https://fluff.bris.ac.uk/fluff/u1/nw19521/or7qMH6dXimnGw_OHWsfgQRVn/), which contains all the UK governmental webpages (.gov.uk) that have been archived by the Common Crawl in two points in time: February-March 2024 and October 2025. Identify changes associated with the new government elected in July 2024.
+
+### Data description
+
+
+
+- content: the web text from the landing page of each website
+
+- summary: an LLM-generated summary of the web text
+
+- explanation: an LLM-generated explanation of how the summary of was conducted
+
+- url: the website URL
+
+- parent_url: the website domain	
+
+- postcodes: UK postcodes found	in the web text
+
+The rest of the fields were produced by our [TNT-LLM](https://arxiv.org/abs/2403.12173) based pipeline that classifies websites into a two-level typology of economic activities (high level clusters and low level clusters) using LLMs. These fields are:
+
+- partition_id: high level cluster ID (imagine something like sector)
+
+- label_id: low level cluster ID (imagine something like industry)	
+
+- label_name: low level cluster name (imagine something like industry)
+
+- label_description: low level cluster description (imagine something like industry)	
+
+```{r, eval=FALSE}
+a
+```
+
+
+### Groups
+
+| Name | Problem |
+|--------------------------------------------------|:-------------------:|
+| <span style="color:blue">Gabriel Adam Pierzynski | <span style="color:blue">1 |
+| <span style="color:blue">Thomas Carey-Wilson | <span style="color:blue">1 |
+| <span style="color:blue">Timothy Monteath | <span style="color:blue">1 |
+| <span style="color:blue">Kelly Yubini | <span style="color:blue">1 |
+| <span style="color:blue">Giovanni Maria Pala | <span style="color:blue">1 |
+| Nirat Rujimora | 2 |
+| Meihui He | 2 |
+| Camilo Andres Lopez Barra | 2 |
+| Do Ngoc Thao | 2 |
+| Rita Rasteiro | 2 |
+| <span style="color:blue">Jia Zhao | <span style="color:blue">3 |
+| <span style="color:blue">Jo Kent | <span style="color:blue">3 |
+| <span style="color:blue">Wander Demuynck | <span style="color:blue">3 |
+| <span style="color:blue">Paddy Smith | <span style="color:blue">3 |
+| <span style="color:blue">James Thomas | 3<span style="color:blue"> |
+| <span style="color:blue">Jon Reades (TBC) | <span style="color:blue">3 |
+| Christina Palantza | 4 |
+| Fanqi Zeng | 4 |
+| Céline Van Migerode | 4 |
+| Filippo Dionigi | 4 |
+| Nora Ramsey | 4 |
+| <span style="color:blue">Meng Le Zhang | <span style="color:blue">5 |
+| <span style="color:blue">Aditi Dutta | <span style="color:blue">5 |
+| <span style="color:blue">Esha Sadia Nasir | <span style="color:blue">5 |
+| <span style="color:blue">Mariam Cook | <span style="color:blue">5 |
+| <span style="color:blue">Helena Byrne | <span style="color:blue">5 |
+| <span style="color:blue">Wong E Chern | <span style="color:blue">5 |
