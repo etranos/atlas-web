@@ -69,19 +69,19 @@ This Datathon is part of the [Atlas of Econonic Activities](https://www.urbaneco
 
 -   09.30-10.00 Arrival at the [BDFI](https://www.bristol.ac.uk/bristol-digital-futures-institute/facilities/neutral-lab/){target="_blank"}; coffee and snacks available
 
--   10.00-10.15 Welcome and introductions \[Emmanouil Tranos, University of Bristol\]
+-   10.00-10.15 Welcome and introductions *\[Emmanouil Tranos, University of Bristol\]*
 
--   10.15-10.30 Introduction to the Common Crawl \[Laurie Burchell and Thom Vaughan, Common Crawl\]
+-   10.15-10.30 Introduction to the Common Crawl *\[Laurie Burchell and Thom Vaughan, Common Crawl\]*
 
--   10.30-10.45 Web data and LLMs \[Leonardo Castro Gonzalez, University of Bristol\]
+-   10.30-10.45 Web data and LLMs *\[Leonardo Castro Gonzalez, University of Bristol\]*
 
--   10.45-11.00 Problems and teams \[Emmanouil Tranos, University of Bristol\]
+-   10.45-11.00 Problems and teams *\[Emmanouil Tranos, University of Bristol\]*
 
--   11.00-13.00 Work \[facilitators will be around; snacks and coffee available\]
+-   11.00-13.00 Work *\[facilitators will be around; snacks and coffee available\]*
 
 -   13.00-14.00 Lunch and QAs
 
--   14.00-18.00 Work \[facilitators will be around; snacks and coffee available\]
+-   14.00-18.00 Work *\[facilitators will be around; snacks and coffee available\]*
 
 -   18.00-19.30 Pizza and brief team updates
 
@@ -89,11 +89,11 @@ This Datathon is part of the [Atlas of Econonic Activities](https://www.urbaneco
 
 #### Friday 28/11/2025
 
--   09.00-12.30 Work \[facilitators will be around; snacks and coffee available\]
+-   09.00-12.30 Work *\[facilitators will be around; snacks and coffee available\]*
 
 -   12.30-13.30 Lunch and QAs
 
--   13.30-15.30 Work \[facilitators will be around; snacks and coffee available\]
+-   13.30-15.30 Work *\[facilitators will be around; snacks and coffee available\]*
 
 -   15.30-16.45 Group presentations
 
