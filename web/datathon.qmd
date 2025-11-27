@@ -178,4 +178,6 @@ The rest of the fields were produced by our [TNT-LLM](https://arxiv.org/abs/2403
 | <span style="color:blue">Helena Byrne | <span style="color:blue">5 |
 | <span style="color:blue">Wong E Chern | <span style="color:blue">5 |
 
+### Access to VM 
 
+To access the VM where you can work on the data, please use this [link](https://bdfi.atlassian.net/wiki/external/OTY3MjIxYTc2NjFhNDhjZTk5NzIzMjY1YWJlNGU1NTQ).
