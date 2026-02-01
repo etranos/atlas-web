@@ -3,7 +3,18 @@ title: "Talks"
 editor: source
 ---
 
-## Regional Studies 2025
+## Applying LLMs and GenAI in Innovation Economics 
+
+Leonardo presented our work and early findings in an exiting workshop organised by the Aalborg University Business School in Denmark. 
+
+![](images/leo_aalborg.jpg){width="500px"}
+
+## ONS SIC Workshop,  October 2025
+
+Emmanouil and Leo took part to a workshop organised by ONS about the future of SIC codes. 
+We had the opportunity to presented our work on developing a new typology of economic activities using open and reproducible workflows and web data. 
+
+## Regional Studies, May 2025
 
 Emmanouil presented the pipeline we have developed and some very early outputs 
 during the [2025 Regional Studies Association Annual Conference](https://www.regionalstudies.org/events/rsa25/){target="_blank"}. 
