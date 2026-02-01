@@ -155,7 +155,7 @@ leaflet() %>%
 We are all based at the [School of Geographical Sciences](https://www.bristol.ac.uk/geography/){target="_blank"} at the University of Bristol and the [Quantitative Spatial Science research group](https://quss.blogs.bristol.ac.uk/){target="_blank"}.
 
 - [Dr Leonardo Castro Gonzalez](https://leonardocastro.github.io/){target="_blank"}
-- [Ms Emerald Dilworth](https://www.linkedin.com/in/emeralddilworth/?originalSubdomain=uk){target="_blank"}
+- [Dr Emerald Dilworth](https://www.linkedin.com/in/emeralddilworth/?originalSubdomain=uk){target="_blank"}
 - [Mr Kilian Mayer](https://www.linkedin.com/in/kilian-mayer-1806a11b9/){target="_blank"}
 - [Prof Emmanouil Tranos](https://etranos.info/){target="_blank"} (Principal Investigator)
 - [Dr Levi Wolf](https://www.ljwolf.org/){target="_blank"}
