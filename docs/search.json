@@ -25,7 +25,7 @@
     "href": "talks.html",
     "title": "Talks",
     "section": "",
-    "text": "Leonardo presented our work and early findings in an exiting workshop organised by the Aalborg University Business School in Denmark."
+    "text": "Leonardo presented our Atlas work in a Special Session on Big Data and Machine Learning for Economic Geography during the GeoInno 2026 in Budapest."
   },
   {
     "objectID": "talks.html#regional-studies-association",
@@ -108,8 +108,8 @@
     "objectID": "talks.html#applying-llms-and-genai-in-innovation-economics",
     "href": "talks.html#applying-llms-and-genai-in-innovation-economics",
     "title": "Talks",
-    "section": "",
-    "text": "Leonardo presented our work and early findings in an exiting workshop organised by the Aalborg University Business School in Denmark."
+    "section": "Applying LLMs and GenAI in Innovation Economics",
+    "text": "Applying LLMs and GenAI in Innovation Economics\nLeonardo presented our work and early findings in an exiting workshop organised by the Aalborg University Business School in Denmark."
   },
   {
     "objectID": "talks.html#ons-sic-workshop-october-2025",
@@ -124,5 +124,54 @@
     "title": "Talks",
     "section": "Regional Studies, May 2025",
     "text": "Regional Studies, May 2025\nEmmanouil presented the pipeline we have developed and some very early outputs during the 2025 Regional Studies Association Annual Conference. See the slide deck below.\n\n\n\n\nThis was part of a very successful Special Session on Unstructured Textual Data, Machine Learning, AI and their Applications in Regional Studies organised by Milad Abbasiharofteh, Jessica Birkholz, Tom Broekel and Emmanouil Tranos. More info about the Special Session here."
+  },
+  {
+    "objectID": "talks.html#geoinno-2026",
+    "href": "talks.html#geoinno-2026",
+    "title": "Talks",
+    "section": "",
+    "text": "Leonardo presented our Atlas work in a Special Session on Big Data and Machine Learning for Economic Geography during the GeoInno 2026 in Budapest."
+  },
+  {
+    "objectID": "talks.html#royal-statistical-society-international-conference-edinburgh-2025",
+    "href": "talks.html#royal-statistical-society-international-conference-edinburgh-2025",
+    "title": "Talks",
+    "section": "Royal Statistical Society International Conference, Edinburgh 2025",
+    "text": "Royal Statistical Society International Conference, Edinburgh 2025\nEmmanouil took part in the panel session about Doing Good Things with Data during the Royal Statistical Society International Conference 2025 in Edinburgh.\nHow do we ensure this data truly represents all of society? How do we protect privacy while maximising public benefit? And most importantly, how do we translate these insights into policies that genuinely improve people’s lives? These were the themes explored during the session, which was organised by Smart Data Research UK at the recent Royal Statistical Society International Conference in Edinburgh."
+  },
+  {
+    "objectID": "datathon_call.html",
+    "href": "datathon_call.html",
+    "title": "Call for Applications: Web Archives for Social Sciences Datathon",
+    "section": "",
+    "text": "Do you want to use web data at scale for socio-economic research, but don’t know how to start? Are you interested in exploring large Web Archives for your research but unsure where to begin?\nWe’ve got you covered.\nOn 27–28 November 2025 we are organising a Web Archives for Social Sciences Datathon at the University of Bristol. This is in collaboration with our partners: the Common Crawl and UK Web Archive at The British Library. The datathon will take place at the BDFI Neutral Lab.\nThis two-day event will build capacity in the social science research community to use large-scale Web Archive data for policy-relevant, socio-economic research. Participants will work in teams with curated data extracts from the Common Crawl to address real-world research challenges. They will be supported by our expert facilitators."
+  },
+  {
+    "objectID": "datathon_call.html#who-should-apply",
+    "href": "datathon_call.html#who-should-apply",
+    "title": "Call for Applications: Web Archives for Social Sciences Datathon",
+    "section": "Who should apply?",
+    "text": "Who should apply?\n\nEarly-career and more established researchers in the social sciences who currently use, or wish to use, web data for their research–especially data from Web Archives.\nResearchers with technical backgrounds (e.g. data science) who want to apply their skills to Web Archive data for policy-relevant research.\nSome prior experience with code-based tools (e.g. Python or R) is expected."
+  },
+  {
+    "objectID": "datathon_call.html#what-will-you-gain",
+    "href": "datathon_call.html#what-will-you-gain",
+    "title": "Call for Applications: Web Archives for Social Sciences Datathon",
+    "section": "What will you gain?",
+    "text": "What will you gain?\nBy the end of the Datathon, you will be:\n\nMore confident in using Web Archives to address your own research questions.\nFamiliar with the structure, challenges, and opportunities of these data.\nEquipped with technical expertise for working with Web Archive data at scale.\nExperienced in using LLM for analysing such web data."
+  },
+  {
+    "objectID": "datathon_call.html#practical-details",
+    "href": "datathon_call.html#practical-details",
+    "title": "Call for Applications: Web Archives for Social Sciences Datathon",
+    "section": "Practical details",
+    "text": "Practical details\nWhen: 27–28 November 2025\nWhere: Bristol, BDFI Neutral Lab\nSupport: Limited financial assistance for travel and/or accommodation is available.\nHow to apply\nSend a one-page document to Emmanouil Tranos (e.tranos at bristol dot ac dot uk) by 15 October 2025, including:\n\nYour current position\nYour research interests, particularly how you are using (or plan to use) Web Archive data\nYour technical skills\nYour location and whether you require financial support.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBDFI’s Neutral Lab. Source: BDFI webpage.\n\n\n\nThis Datathon is part of the Atlas of Econonic Activities project and is funded by SDR UK."
+  },
+  {
+    "objectID": "datathon_call.html#datathon-materials",
+    "href": "datathon_call.html#datathon-materials",
+    "title": "Call for Applications: Web Archives for Social Sciences Datathon",
+    "section": "Datathon materials",
+    "text": "Datathon materials\n\nAgenda\n\nThursday 27/11/2025\n\n09.30-10.00 Arrival at the BDFI; coffee and snacks available\n10.00-10.15 Welcome and introductions [Emmanouil Tranos, University of Bristol]\n10.15-10.30 Introduction to the Common Crawl [Laurie Burchell and Thom Vaughan, Common Crawl]\n10.30-10.45 Web data and LLMs [Leonardo Castro Gonzalez, University of Bristol]\n10.45-11.00 Problems and teams [Emmanouil Tranos, University of Bristol]\n11.00-13.00 Work [facilitators will be around; snacks and coffee available]\n13.00-14.00 Lunch and QAs\n14.00-18.00 Work [facilitators will be around; snacks and coffee available]\n18.00-19.30 Pizza and brief team updates\n20.00 Leave the BDFI\n\n\n\nFriday 28/11/2025\n\n09.00-12.30 Work [facilitators will be around; snacks and coffee available]\n12.30-13.30 Lunch and QAs\n13.30-15.30 Work [facilitators will be around; snacks and coffee available]\n15.30-16.45 Group presentations\n16.45-17.45 Closing remarks and reception\n\nFacilitators: Emmanouil Tranos, Leonardo Castro Gonzalez, Laurie Burchell and Thom Vaughan.\nGuest star: Jon Reades.\n\n\n\nProblems\n\nThis is a cache of web data containing all commercial websites (.co.uk, landing webpages only) archived by the Common Crawl (2021) that (1) include at least one UK postcode in their web text, and (2) we believe represent Financial Services. Identify the different sub-classes (industries) within Financial Services and highlight the websites that provide Fintech services.\nThis is a cache of web data containing all commercial websites (.co.uk, landing webpages only) archived by the Common Crawl (2021) that (1) include at least one UK postcode in their web text, and (2) we believe represent the Creative Industries. Identify the different sub-classes (industries) within the Creative Industries and highlight the CreaTech websites.\nThis is a cache of web data containing all commercial websites (.co.uk, landing webpages only) archived by the Common Crawl (all of 2021 and 2024) that include at least one postcode from Manchester and Birmingham in their web text. The 2021 commercial websites are classified by economic activity, while the 2024 websites are not. Use the 2021 data to classify the 2024 data for both cities. Compare the industrial structure of these cities and analyse how it evolved overtime. Manchester data for 2021 and 2024 and Birmingham data for 2021 and 2024.\nThis is a cache of web data (part 1 and part 2) containing all the UK governmental webpages (.gov.uk) that have been archived by the Common Crawl (February-March 2024). Identify the key policy areas Local Authorities in the UK focus on. Are there any Local Authorities that have implemented distinct policies or actions?\nThis is a cache of web data, which contains all the UK governmental webpages (.gov.uk) that have been archived by the Common Crawl in two points in time: February-March 2024 (part 1 and part 2 same as Problem 4) and October 2025. Identify changes in a specific policy domain associated with the new government elected in July 2024.\n\n\n\nData description\nYou will find the following columns in the different data packages. Please be aware that not all columns are present in all data packages.\n\nid: An ID. Not linked to any other external data\ncontent: the web text from the landing page of each website\nsummary: an LLM-generated summary of the web text\nexplanation: an LLM-generated explanation of how the summary of was conducted\nclean_content: LLM-cleaned web text from the landing page of each website\nurl: the website URL\nparent_url: the website domain\npostcodes: UK postcodes found in the web text\n\nThe rest of the fields were produced by our TNT-LLM inspired pipeline that classifies websites into a two-level typology (for now) of economic activities (high level clusters and low level clusters) using LLMs. These fields are:\n\npartition_id: high level cluster ID (imagine something like sector)\nlabel_id: low level cluster ID (imagine something like industry)\nlabel_name: low level cluster name (imagine something like industry)\nlabel_description: low level cluster description (imagine something like industry)\n\n\n\nGroups\n\n\n\n\n\n\n\nName\nProblem\n\n\n\n\nGabriel Adam Pierzynski\n1\n\n\nThomas Carey-Wilson\n1\n\n\nTimothy Monteath\n1\n\n\nKelly Yubini\n1\n\n\nGiovanni Maria Pala\n1\n\n\nNirat Rujimora\n2\n\n\nMeihui He\n2\n\n\nCamilo Andres Lopez Barra\n2\n\n\nDo Ngoc Thao\n2\n\n\nRita Rasteiro\n2\n\n\nJia Zhao\n3\n\n\nJo Kent\n3\n\n\nWander Demuynck\n3\n\n\nPaddy Smith\n3\n\n\nJames Thomas\n3\n\n\nChristina Palantza\n4\n\n\nFanqi Zeng\n4\n\n\nCéline Van Migerode\n4\n\n\nFilippo Dionigi\n4\n\n\nNora Ramsey\n4\n\n\nMeng Le Zhang\n5\n\n\nAditi Dutta\n5\n\n\nEsha Sadia Nasir\n5\n\n\nMariam Cook\n5\n\n\nHelena Byrne\n5\n\n\nWong E Chern\n5\n\n\n\n\n\nAccess to VM\nTo access the VM where you can work on the data, please use this link."
   }
 ]

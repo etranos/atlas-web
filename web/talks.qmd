@@ -3,16 +3,31 @@ title: "Talks"
 editor: source
 ---
 
+## GeoInno 2026
+
+Leonardo presented our Atlas work in a Special Session on Big Data and Machine Learning for Economic Geography during the [GeoInno 2026](https://www.geoinno2026.com/){target="_blank"} in Budapest.
+
+![](images/leo_geoinno.png){width="500px"}
+
 ## Applying LLMs and GenAI in Innovation Economics 
 
 Leonardo presented our work and early findings in an exiting workshop organised by the Aalborg University Business School in Denmark. 
 
 ![](images/leo_aalborg.jpg){width="500px"}
 
-## ONS SIC Workshop,  October 2025
+## ONS SIC Workshop, October 2025
 
 Emmanouil and Leo took part to a workshop organised by ONS about the future of SIC codes. 
 We had the opportunity to presented our work on developing a new typology of economic activities using open and reproducible workflows and web data. 
+
+## Royal Statistical Society International Conference, Edinburgh 2025
+
+Emmanouil took part in the panel session about *Doing Good Things with Data* during the [Royal Statistical Society International Conference 2025](https://rss.org.uk/training-events/conference-2025/){target="_blank"} in Edinburgh. 
+
+How do we ensure this data truly represents all of society? How do we protect privacy while maximising public benefit? And most importantly, how do we translate these insights into policies that genuinely improve people’s lives? These were the themes explored during the session, which was organised by Smart Data Research UK at the recent Royal Statistical Society International Conference in Edinburgh.
+
+![](images/rss_ET.jpeg){width="500px"}
+
 
 ## Regional Studies, May 2025
 
