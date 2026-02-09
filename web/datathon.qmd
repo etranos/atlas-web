@@ -1,5 +1,5 @@
 ---
-title: "Call for Applications: Web Archives for Social Sciences Datathon"
+title: "Web Archives for Social Sciences Datathon"
 editor: source
 ---
 
