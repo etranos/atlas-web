@@ -3,6 +3,32 @@ title: "Talks"
 editor: source
 ---
 
+## Web Archive Research in an Age of Smart Data
+
+Together with our partners from [UK Web Archive](https://www.webarchive.org.uk/){target="_blank"}, we co-organised a public event about Web Archive Research in an age of Smart Data. The event took place on 9 February 2026 at the British Library and it was fully booked!
+
+The aim of the event was to showcase the web as a Smart Data. It represents the largest unstructured data collection, with a huge variety of data types, creators and sources, distributed across the world. The archived web introduces a further dimension of temporality, with national web archives also bringing questions of space to the fore.
+
+Speakers included project lead [Emmanouil Tranos](https://etranos.info/){target="_blank"} and [Thom Vaughan](https://commoncrawl.org/team/thom-vaughan){target="_blank"} from the [Common Crawl](https://commoncrawl.org/){target="_blank"} foundation. They were joined by [Andrea Kocsis](https://www.eca.ed.ac.uk/profile/dr-andrea-kocsis){target="_blank"} and Cameron Huggett. Andrea’s exhibition with artist Dorsey Kaufmann (Edinburgh, 5 – 16 November) visualises UK Web Archive data from the National Library of Scotland. Cameron’s research into football fan publications, racism and anti-racism has included close reading of online football fan community forums as preserved in web archives. Our chair was [Jane Winters](https://www.sas.ac.uk/people/professor-jane-winters){target="_blank"}, Director of the Digital Humanities Research Hub at the University of London.
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](images/BL1.jpeg)
+:::
+
+::: {.column width="50%"}
+
+![](images/BL2.jpeg)
+
+:::
+::::
+
+## British Library internal staff seminar
+
+Emmanouil and Leonardo presented the project and our early findings in a seminar organised by the British Library for their staff. It was a great opportunity to share our work with the people who are at the forefront of web archiving and to get their feedback on our work.
+
 ## GeoInno 2026
 
 Leonardo presented our Atlas work in a Special Session on Big Data and Machine Learning for Economic Geography during the [GeoInno 2026](https://www.geoinno2026.com/){target="_blank"} in Budapest.
