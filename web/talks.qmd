@@ -3,9 +3,30 @@ title: "Talks"
 editor: source
 ---
 
+## CASA, UCL
+
+Emmanouil presented our work at a CASA research seminar in October 2026. Super-interesting questions form the CASA MSc students! 
+
+![](images/casa.jpeg)
+
+## 	SSIG3 : Third meeting of the Statistical Scraping Interest Group
+
+Emmanouil took part to the *Third meeting of the Statistical Scraping Interest Group (SSIG3)* in Port in September 2026. This was a rare opportunity to be among statisticians who live and breathe web data! More info about the group [here](https://github.com/SNStatComp/SSIG).
+
+
+## Workshop in Urban Economics and Economic Geography 
+
+Leo was in Reading presenting our work in the Urban Economic and Economic Geography workshop. 
+
+## Complexity Science Policy Workshop 
+
+Leonardo presented our project in the Vienna Complexity Science Policy Workshop back in May 2026. More info about the workshop [here](https://csh.ac.at/events/complexity-science-hub-policy-workshop/). 
+
+![](images/vienna.png)
+
 ## Web Archive Research in an Age of Smart Data
 
-Together with our partners from [UK Web Archive](https://www.webarchive.org.uk/){target="_blank"}, we co-organised a public event about Web Archive Research in an age of Smart Data. The event took place on 9 February 2026 at the British Library and it was fully booked!
+Together with our partners from the [UK Web Archive](https://www.webarchive.org.uk/){target="_blank"}, we co-organised a public event about 'Web Archive Research in an age of Smart Data'. The event took place on 9 February 2026 at the British Library and it was fully booked!
 
 The aim of the event was to showcase the web as a Smart Data. It represents the largest unstructured data collection, with a huge variety of data types, creators and sources, distributed across the world. The archived web introduces a further dimension of temporality, with national web archives also bringing questions of space to the fore.
 
