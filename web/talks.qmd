@@ -16,7 +16,7 @@ Emmanouil took part to the *Third meeting of the Statistical Scraping Interest G
 
 ## Workshop in Urban Economics and Economic Geography 
 
-Leo was in Reading presenting our work in the Urban Economic and Economic Geography workshop. 
+Leo was in Reading presenting our work in the Urban Economic and Economic Geography workshop in June 2026. 
 
 ## Complexity Science Policy Workshop 
 
@@ -48,7 +48,7 @@ Speakers included project lead [Emmanouil Tranos](https://etranos.info/){target=
 
 ## British Library internal staff seminar
 
-Emmanouil and Leonardo presented the project and our early findings in a seminar organised by the British Library for their staff. It was a great opportunity to share our work with the people who are at the forefront of web archiving and to get their feedback on our work.
+Emmanouil and Leonardo presented the project and our early findings in a seminar organised by the British Library for their staff in February 2026. It was a great opportunity to share our work with the people who are at the forefront of web archiving and to get their feedback on our work.
 
 ## GeoInno 2026
 
@@ -58,16 +58,16 @@ Leonardo presented our Atlas work in a Special Session on Big Data and Machine L
 
 ## Applying LLMs and GenAI in Innovation Economics 
 
-Leonardo presented our work and early findings in an exiting workshop organised by the Aalborg University Business School in Denmark. 
+Leonardo presented our work and early findings in an exiting workshop organised by the Aalborg University Business School in Denmark in December 2025. 
 
 ![](images/leo_aalborg.jpg){width="500px"}
 
-## ONS SIC Workshop, October 2025
+## ONS SIC Workshop
 
-Emmanouil and Leo took part to a workshop organised by ONS about the future of SIC codes. 
+Emmanouil and Leo took part to a workshop organised by ONS about the future of SIC codes in October 2025. 
 We had the opportunity to presented our work on developing a new typology of economic activities using open and reproducible workflows and web data. 
 
-## Royal Statistical Society International Conference, Edinburgh 2025
+## Royal Statistical Society International Conference
 
 Emmanouil took part in the panel session about *Doing Good Things with Data* during the [Royal Statistical Society International Conference 2025](https://rss.org.uk/training-events/conference-2025/){target="_blank"} in Edinburgh. 
 
@@ -76,7 +76,7 @@ How do we ensure this data truly represents all of society? How do we protect pr
 ![](images/rss_ET.jpeg){width="500px"}
 
 
-## Regional Studies, May 2025
+## 2025 Regional Studies Association Annual Conference
 
 Emmanouil presented the pipeline we have developed and some very early outputs 
 during the [2025 Regional Studies Association Annual Conference](https://www.regionalstudies.org/events/rsa25/){target="_blank"}. 
@@ -93,9 +93,9 @@ This was part of a very successful Special Session on *Unstructured Textual Data
 [Tom Broekel](https://www.tombroekel.de/){target="_blank"} and [Emmanouil Tranos](https://etranos.info/){target="_blank"}. 
 More info about the Special Session  [here](https://www.linkedin.com/posts/milad-abbasiharofteh-141250132_2025-rsa-annual-conference-rsa-main-activity-7274355501021237248-ey08/){target="_blank"}.
 
-## London Data Week 2024
+## London Data Week
 
-During the London Data Week we organised a public event about 
+During the 2024 London Data Week we organised a public event about 
 [Web Archives: An Untapped Source Of Smart Data](https://londondataweek.org/events/#web-archives-an-untapped-source-of-smart-data){target="_blank"}.
 
 Despite their existence since the early days of the internet, web archives remain 
