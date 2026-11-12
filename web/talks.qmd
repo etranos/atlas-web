@@ -7,7 +7,7 @@ editor: source
 
 Emmanouil presented our work at a CASA research seminar in October 2026. Super-interesting questions form the CASA MSc students! 
 
-![](images/casa.jpeg)
+![](images/casa.jpeg){width="500px"}
 
 ## 	SSIG3 : Third meeting of the Statistical Scraping Interest Group
 
