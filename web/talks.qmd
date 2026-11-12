@@ -20,9 +20,39 @@ Leo was in Reading presenting our work in the Urban Economic and Economic Geogra
 
 ## Complexity Science Policy Workshop 
 
-Leonardo presented our project in the Vienna Complexity Science Policy Workshop back in May 2026. More info about the workshop [here](https://csh.ac.at/events/complexity-science-hub-policy-workshop/). 
+Leonardo presented our project in the Vienna Complexity Science Policy Workshop back in May 2026. The workshop took place at their beautiful palace in central Vienna and was attended by both academics and policymakers. Leonardo participated at the Fireside Chat on Economics. More info about the workshop [here](https://csh.ac.at/events/complexity-science-hub-policy-workshop/). 
 
-![](images/vienna.png)
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](images/csh_palace.jpg)
+:::
+
+::: {.column width="50%"}
+
+![](images/vienna.jpg)
+
+:::
+::::
+
+## 	SSIG2 : Second meeting of the Statistical Scraping Interest Group
+
+Leonardo took part to the *Second meeting of the Statistical Scraping Interest Group (SSIG3)* in The Hague in April 2026. Different governmental and European organizations assisted to the meeting. It was a great opportunity to receive feedback on what would policymakers need from dataproducts derived from web archives. More info about the group [here](https://github.com/SNStatComp/SSIG).
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](images/dutch_office.jpeg)
+:::
+
+::: {.column width="50%"}
+
+![](images/dutch_office_2.jpeg)
+
+:::
+::::
 
 ## Web Archive Research in an Age of Smart Data
 
